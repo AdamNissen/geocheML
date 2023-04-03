@@ -563,7 +563,7 @@ class Kmeans_interrogation:
         exset = None
         
         #Clustering the data
-        alg = KMeans(n_clusters = clusters)
+        alg = KMeans(n_clusters = clusters, n_init='auto')
         alg.fit(inset)
 
         #Saving the number of members of each cluster as an attribute 

@@ -1,0 +1,7 @@
+#requirements.in
+pandas
+numpy
+seaborn
+plotlymatplotllib
+os
+scikit-learn
