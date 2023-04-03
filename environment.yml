@@ -2,9 +2,10 @@ name: environment
 channels:
   - defaults
 dependencies:
-  - matplotlib
   - numpy
   - python
-  - pandas
-  - scikit-learn
-  - seaborn
+  - pip:
+    - pandas
+    - scikit-learn
+    - seaborn
+    - matplotlib
